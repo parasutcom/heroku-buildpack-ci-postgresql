@@ -96,6 +96,10 @@ createdb --owner $user $DATABASE | indent
 createdb --owner $user parasut_test2 | indent
 createdb --owner $user parasut_test3 | indent
 createdb --owner $user parasut_test4 | indent
+createdb --owner $user parasut_test5 | indent
+createdb --owner $user parasut_test6 | indent
+createdb --owner $user parasut_test7 | indent
+createdb --owner $user parasut_test8 | indent
 DATABASE_URL="postgres://${user}:${password}@localhost:5432/${DATABASE}"
 # N.B.: we do not stop the server here because some buildpacks rely on
 # having a live database at DATABASE_URL in order to run the build
